@@ -1,0 +1,57 @@
+<div class="card mb-3 w-75 mx-auto my-5">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <div
+        class="container-fluid text-light bg-success bg-gradient rounded-start h-100 p-3"
+        style="--bs-bg-opacity: 0.7"
+      >
+        <h1 class="m-3 text-center ">CALCULAR IMC</h1>
+        <div class="table-responsive">
+          <h6 class="card text-bg-dark mb-3 w-100  card-body ">
+            Veja a interpretação do IMC
+          </h6>
+
+          <table class="table table-success align-middle">
+            <tr>
+              <th class="table-dark">IMC</th>
+              <th class="table-dark">Classificação</th>
+              <th class="table-dark">Obesidade (grau)</th>
+            </tr>
+
+            <tr class="bordered">
+              <td class="table-dark">Menor que 18,5</td>
+              <td class="table-dark">Magreza</td>
+              <td class="table-dark">0</td>
+            </tr>
+            <tr>
+              <td class="table-dark">Entre 18,5 e 24,9</td>
+              <td class="table-dark">Normal</td>
+              <td class="table-dark">0</td>
+            </tr>
+            <tr>
+              <td class="table-dark">Entre 25,0 e 29,9</td>
+              <td class="table-dark">Sobrepeso</td>
+              <td class="table-dark">I</td>
+            </tr>
+            <tr>
+              <td class="table-dark">Entre 30,0 e 39,9</td>
+              <td class="table-dark">Obesidade</td>
+              <td class="table-dark">II</td>
+            </tr>
+            <tr>
+              <td class="table-dark">Maior que 40,0</td>
+              <td class="table-dark">Obesidade Grave</td>
+              <td class="table-dark">III</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card-body p-4">
+        <h1 class="mb-4">Insira os valores</h1>
+        <app-form></app-form>
+      </div>
+    </div>
+  </div>
+</div>

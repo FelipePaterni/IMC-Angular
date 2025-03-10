@@ -1,59 +1,60 @@
-# IMCAngular
+# Angular Calculator
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+[README em Português](/README-PTBR.md)
 
-## Development server
+A project to learn how to use the Angular framework. The goal is to calculate a person's Body Mass Index (BMI), by receiving the weight and height. After the calculation, an image is displayed showing the classification in which the BMI value fits. The website's design was created using Bootstrap.
 
-To start a local development server, run:
+## Technologies Used
 
-```bash
-ng serve
-```
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Author
 
-## Code scaffolding
+- [@FelipePaterni](https://www.github.com/FelipePaterni)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Lessons Learned
 
-```bash
-ng generate component component-name
-```
+This project helped me better understand the methods and components of Angular, how to use its functions, and how the file structure works.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Features
 
-```bash
-ng generate --help
-```
+- Calculate BMI
+- Classify
+- Show images and text about the classification
 
-## Building
+## Screenshots
 
-To build the project run:
+![Screenshot](https://i.imgur.com/H9ttiGr.png)
 
-```bash
-ng build
-```
+## How to Use
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/FelipePaterni/IMC-Angular.git
+   ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+2. Navigate to the project folder:
 
-```bash
-ng test
-```
+   ```bash
+   cd Angular-Calc
+   ```
 
-## Running end-to-end tests
+3. Install the dependencies:
 
-For end-to-end (e2e) testing, run:
+   ```bash
+   npm install
+   ```
 
-```bash
-ng e2e
-```
+4. Run the project:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+   ```bash
+   ng s -o
+   ```
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. Open in your browser:
+   http://localhost:4200

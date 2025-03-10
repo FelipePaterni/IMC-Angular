@@ -1,0 +1,68 @@
+<div class="container my-4">
+  <div class="row">
+    <div class="col h6">
+      <label for="peso" class="form-label">Peso</label>
+    </div>
+    <div class="col h6">
+      <label for="altura" class="form-label">Altura</label>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col">
+      <input
+        type="number"
+        name="peso"
+        id="peso"
+        [(ngModel)]="peso"
+        step="0.1"
+        min="0"
+        class="form-control"
+      />
+    </div>
+    <div class="col">
+      <input
+        type="number"
+        name="altura"
+        id="altura"
+        [(ngModel)]="altura"
+        step="0.01"
+        min="0"
+        class="form-control"
+      />
+    </div>
+  </div>
+
+  <div class="row mb-3 align-items-center" *ngIf="indexImg !== 0">
+    <div class="col text-center">
+      <img
+        [src]="imgsrc[indexImg]"
+        alt="Resultado"
+        class="img-fluid"
+        style="max-width: 100px"
+      />
+    </div>
+    <div class="col text-center">
+      <ngb-alert [type]="alert.type" [dismissible]="false">
+        {{ alert.message }}
+      </ngb-alert>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="col-5">
+      <div class="text-center input-group ">
+        <span class="input-group-text" id="basic-addon1">Seu IMC:</span>
+        <label class="border form-control p-2 d-inline-block rounded">
+          {{ imc }}
+        </label>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="text-center">
+        <button (click)="onClickIMC()" class="btn px-3 h-100 btn-outline-success">
+          Calcular
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
