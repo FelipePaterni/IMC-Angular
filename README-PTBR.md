@@ -1,4 +1,4 @@
-# Calculadora em Angular
+# Calculador IMC em Angular
 
 [English README](/README.md)
 

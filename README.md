@@ -1,4 +1,4 @@
-# Angular Calculator
+# Angular BMI Calculator
 
 [README em Português](/README-PTBR.md)
 
