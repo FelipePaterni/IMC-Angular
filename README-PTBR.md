@@ -31,7 +31,14 @@ Esse projeto me ajudou a entender melhor os métodos e componentes do Angular, a
 ![Screenshot](https://imgur.com/H9ttiGr.png)
 
 ## Como Usar
+  Abra no navegador:
+   https://imc-angular-nine.vercel.app/
 
+---
+
+## or
+
+---
 1. Clone o repositório:
 
    ```bash

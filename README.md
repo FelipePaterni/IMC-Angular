@@ -31,7 +31,14 @@ This project helped me better understand the methods and components of Angular, 
 ![Screenshot](https://i.imgur.com/H9ttiGr.png)
 
 ## How to Use
+ Open in your browser:
+   https://imc-angular-nine.vercel.app/
 
+---
+
+## or
+
+---
 1. Clone the repository:
 
    ```bash
